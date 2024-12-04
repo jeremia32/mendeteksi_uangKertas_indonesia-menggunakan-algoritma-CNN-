@@ -1,0 +1,92 @@
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+.footer-section h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer-section p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #17a2b8;
+}
+
+.footer-section .d-flex a {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.footer-section .d-flex a:hover {
+  color: #17a2b8;
+}
+
+.contact-form {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.contact-form .form-label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.contact-form .form-control {
+  font-size: 0.9rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.contact-form .form-control:focus {
+  border-color: #17a2b8;
+  box-shadow: 0 0 5px rgba(23, 162, 184, 0.5);
+}
+
+.contact-form button {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  background-color: #343a40;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #17a2b8;
+}
+
+.footer .text-center p {
+  font-size: 0.8rem;
+  margin: 0;
+}

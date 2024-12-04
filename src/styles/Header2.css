@@ -1,0 +1,86 @@
+.header2 {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.jumbotron {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.jumbotron-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.jumbotron-title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.jumbotron-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem; /* Tambahkan margin bawah untuk memberi ruang bagi ikon */
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem; /* Spasi kecil di atas ikon sosial */
+  z-index: 3;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.jumbotron:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Lapisan gelap untuk meningkatkan kontras */
+  z-index: 1; /* Letakkan sebelum overlay */
+}

@@ -1,0 +1,105 @@
+/* tentang.css */
+
+.tentang-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Content Section */
+.tentang-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.tentang-image-wrapper {
+  flex: 1;
+  min-width: 300px;
+}
+
+.tentang-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tentang-description {
+  flex: 1;
+  min-width: 300px;
+}
+
+.tentang-section-title {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.tentang-text {
+  font-size: 1rem;
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.tentang-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tentang-list li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Grid Section */
+.tentang-grid-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tentang-grid-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.tentang-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tentang-grid-item {
+  flex: 1;
+  max-width: 300px;
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.tentang-grid-item:hover {
+  transform: translateY(-10px);
+}
+
+.tentang-grid-item-title {
+  font-size: 1.5rem;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.tentang-grid-item-text {
+  font-size: 1rem;
+  color: #7f8c8d;
+  line-height: 1.6;
+}

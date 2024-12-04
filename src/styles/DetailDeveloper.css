@@ -1,0 +1,146 @@
+/* DetailDeveloper.css */
+
+/* Style utama container */
+.detail-developer-container {
+  max-width: 700px; /* Lebar container lebih kecil untuk tampilan yang lebih ringkas */
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+}
+/* Developer Title */
+.developer-title {
+  font-size: 2.5rem; /* Ukuran font besar untuk judul */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center; /* Menempatkan judul di tengah */
+}
+
+/* Developer Role */
+.developer-role {
+  font-size: 1.5rem; /* Ukuran font lebih kecil untuk peran */
+  font-weight: normal;
+  color: #777;
+  text-align: center; /* Menempatkan peran di tengah */
+  margin-bottom: 20px;
+}
+
+/* Carousel container untuk gambar */
+.carousel-container {
+  max-width: 70%; /* Lebar carousel lebih kecil */
+  margin: 0 auto; /* Menjaga agar carousel berada di tengah */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Gambar carousel (kotak dan responsif dengan ukuran yang lebih kecil) */
+.carousel-item img {
+  width: 100%; /* Gambar memenuhi lebar carousel */
+  height: 400px; /* Tinggi gambar yang lebih kecil */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Bio section */
+.developer-bio {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.developer-bio p {
+  margin: 0;
+}
+
+/* Developer info list */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+  text-align: center; /* Menempatkan peran di tengah */
+
+}
+
+ul li {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+ul li strong {
+  font-weight: bold;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+/* Responsif untuk mobile dan tablet */
+@media (max-width: 768px) {
+  .detail-developer-container {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .developer-title {
+    font-size: 2rem;
+  }
+
+  .developer-role {
+    font-size: 1.2rem;
+  }
+
+  .carousel-container {
+    max-width: 80%; /* Agar carousel tetap responsif */
+  }
+
+  .social-links a {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .developer-title {
+    font-size: 1.8rem;
+  }
+
+  .developer-role {
+    font-size: 1.1rem;
+  }
+
+  .developer-bio {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  ul li {
+    font-size: 1rem;
+  }
+
+  .social-links a {
+    font-size: 1.5rem;
+  }
+}

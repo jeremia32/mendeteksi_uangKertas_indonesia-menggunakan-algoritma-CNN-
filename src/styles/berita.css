@@ -1,0 +1,75 @@
+/* berita.css */
+.news-card {
+  width: 100%;
+  max-width: 360px;
+  margin: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.news-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.news-image {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.news-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.news-caption {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.news-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-date {
+  font-size: 0.9rem;
+}
+
+.read-more-button {
+  transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Responsif */
+@media (max-width: 576px) {
+  .news-card {
+    max-width: 100%;
+  }
+
+  .news-image {
+    height: 180px;
+  }
+
+  .news-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* Gaya untuk Judul Berita */
+.berita-list h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-transform: uppercase; /* Menambahkan efek huruf kapital */
+}

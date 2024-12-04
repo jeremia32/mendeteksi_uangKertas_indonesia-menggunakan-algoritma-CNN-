@@ -1,0 +1,97 @@
+.deteksi-container {
+  font-family: "Roboto", sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #e6e4e4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.webcam-section,
+.upload-section {
+  margin-bottom: 2rem;
+}
+
+.webcam-container {
+  position: relative;
+  margin-bottom: 1rem;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-stream {
+  width: 100%;
+}
+
+.scan-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.action-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.action-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.start-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.stop-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.toggle-btn {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.predict-btn {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.upload-section h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.uploaded-image-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.result-text {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}

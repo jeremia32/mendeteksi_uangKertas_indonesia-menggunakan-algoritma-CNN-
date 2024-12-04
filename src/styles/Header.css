@@ -1,0 +1,109 @@
+header {
+    background-color: #39404a;
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000;
+  }
+  
+  .header-jumbotron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .header-jumbotron > img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .header-jumbotron > h3 {
+    color: #fff;
+    margin: 30px 0px 0px 0px;
+    padding: 5px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+  }
+  
+  .header-jumbotron > p {
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  .socialMedia {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .socialMedia > a {
+    background-color: #222831;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s;
+  }
+  
+  .socialMedia > a > svg {
+    height: 30px;
+    width: auto;
+    transition: transform 0.3s;
+  }
+  
+  .socialMedia > a:hover {
+    background-color: #aa392d;
+  }
+  
+  .socialMedia > a:hover > svg {
+    transform: scale(0.5);
+  }
+  
+  .socialMedia > a::after {
+    content: attr(aria-label);
+    position: absolute;
+    color: #fff;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translateY(20px);
+  }
+  
+  .socialMedia > a:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .socialMedia > a {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .socialMedia > a > svg {
+      height: 30px;
+      width: auto;
+    }
+  
+    .socialMedia > a::after {
+      font-size: 0.8rem;
+    }
+  }
+  
